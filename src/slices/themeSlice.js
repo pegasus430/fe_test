@@ -1,4 +1,3 @@
-import _ from "lodash";
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
