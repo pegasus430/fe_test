@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+}
+
+.massive {
+  color: green;
+  position: sticky;
+  float: right;
+  bottom: 0%;
+}
+
+.moon,
+.sun {
+  cursor: pointer;
+}
+
+.ui.container {
+  margin-top: 10px;
+}
+
+.App.inverse {
+  background: black;
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.inverse .ui.card {
+  background: #1b1c1d;
+}
+
+.inverse .header.cardHeader{
+  color: black !important;
+}
+
+.inverse .description,
+.inverse .header,
+.inverse .content {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
