@@ -19,17 +19,17 @@ const App = () => {
   return (
     <div className={darkMode ? "App inverse" : "App"}>
       <BrowserRouter>
-      <Header />
-      <Routes>
-      <Route path='/' element={<FilmList />} />
-      <Route path='/movie/:id'
-      element={
-        <ProtectedRoute >
-          <Film />
-        </ProtectedRoute>
-      }
-      />
-      </Routes>
+        <Header />
+        <Routes>
+          <Route path='/' element={<FilmList />} />
+          <Route path='/movie/:id'
+            element={
+              <ProtectedRoute >
+                <Film />
+              </ProtectedRoute>
+            }
+          />
+        </Routes>
       </BrowserRouter>
     </div>
   );
